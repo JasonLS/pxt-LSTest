@@ -9,7 +9,7 @@ namespace basic {
     // block text with spaces
 
     //% block
-    export function camlCaseTwo() {
+    export function camlCasethree() {
 
     }
 }
