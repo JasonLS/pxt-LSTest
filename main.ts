@@ -54,7 +54,7 @@ namespace variable {
     /**
      * This API will have a variable shadow block with the name "someName" pre-filled
      */
-    //% block="%x=variables_get(someName)"
+    //% block="%x=variables_get(EnterName)"
     export function foo(x: number) {
 
     }
