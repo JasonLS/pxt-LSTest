@@ -13,3 +13,9 @@ namespace basic {
 
     }
 }
+
+namespace basic2 {
+    //% color="#ff0000" icon="\uf0a4"
+    //% block
+    export function red(){}
+}
