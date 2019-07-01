@@ -17,7 +17,7 @@ namespace basic {
 namespace basic2 {
     //% color="#ff0000" icon="\uf0a4"
     //% block
-    export function red(){}
+    export function red() { }
 }
 
 
@@ -61,32 +61,58 @@ namespace variable {
 }
 
 
-//% color=#D83B01
-namespace moremusic {
 
+//% color="#AA278D"
+namespace language {
     /**
-     * Play a tone
-     * @param note pitch of the tone to play in Hertz (Hz), eg: Note.C
+     * This is a statement block
      */
-    //% blockId=music_play_note
-    //% block="play tone $note tone"
-    //% note.shadow="device_note"
-    export function playTone(note: number) {
+    //% block
+    export function statement() {
 
     }
 
     /**
-     * Get the frequency of a note.
-     * @param note the note name, eg: Note.C
+     * A function that returns a non-void argument generates a reporter block (oval shape).
      */
-    //% blockId=device_note block="$note"
-    //% shim=TD_ID
-    //% color="#ffffff" colorSecondary="#ffffff" colorTertiary="#D83B01"
-    //% note.fieldEditor="note" note.defl="262"
-    //% note.fieldOptions.decompileLiterals=true
-    //% useEnumVal=1
-    export function noteFrequency(note: Note): number {
-        return note;
+    //% block
+    export function expression(): number {
+        return 0;
+    }
+
+    /**
+     * This is a statement block with a parameter
+     */
+    //% block
+    export function statementWithArguments(arg1: number) {
+
+    }
+
+    /**
+     * This is a statement block with a parameter
+     */
+    //% block
+    export function statementWith2Arguments(arg1: number, arg2: string) {
+
+    }
+
+    /**
+     * When a function has many arguments, it switches to a vertical layout
+     */
+    //% block
+    export function statementWith5Arguments(arg1: number, arg2: number, arg3: number, arg4: number, arg5: number) {
+
+    }
+
+    /**
+     * You can force an "inline" layout using inlineInputMode
+     */
+    //% block
+    //% inlineInputMode=inline
+    export function statementWith5ArgumentsInline(arg1: number, arg2: number, arg3: number, arg4: number, arg5: number) {
+
     }
 }
+
+
 
