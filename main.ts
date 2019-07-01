@@ -20,13 +20,10 @@ namespace basic2 {
     export function red(){}
 }
 
-/**
- * Organize your blocks in groups
- */
+
 //% color="#AA278D"
 //% groups="['Fruits', 'Veggies']"
 namespace food {
-    //% color="#ff0000"
     //% block
     //% group="Veggies"
     export function potato() {
@@ -48,6 +45,17 @@ namespace food {
     //% block
     //% group="Fruits"
     export function banana() {
+
+    }
+}
+
+//% color="#AA278D"
+namespace variable {
+    /**
+     * This API will have a variable shadow block with the name "someName" pre-filled
+     */
+    //% block="%x=variables_get(someName)"
+    export function foo(x: number) {
 
     }
 }
