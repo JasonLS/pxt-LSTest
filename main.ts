@@ -26,6 +26,7 @@ namespace basic2 {
 //% color="#AA278D"
 //% groups="['Fruits', 'Veggies']"
 namespace food {
+    //% color="#ff0000"
     //% block
     //% group="Veggies"
     export function potato() {
