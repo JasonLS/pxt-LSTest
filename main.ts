@@ -62,7 +62,7 @@ namespace variable {
 
 
 //% color=#D83B01
-namespace music {
+namespace moremusic {
 
     /**
      * Play a tone
