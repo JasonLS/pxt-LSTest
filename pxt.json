@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-lstest": "workspace:a42f8e83-c668-4c19-1850-56affb696c1e"
     },
     "files": [
         "README.md",
@@ -13,5 +14,6 @@
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:a42f8e83-c668-4c19-1850-56affb696c1e"
 }
